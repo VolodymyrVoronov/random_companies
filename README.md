@@ -21,23 +21,23 @@ The second argument is settings for data to be generated.
 
 ```javascript
 {
-    id: true, (string)
-    companyName: true, (string)
-    country: true, (string)
-    city: true, (string)
-    street: true, (string)
+    id: true,
+    companyName: true,
+    country: true,
+    city: true,
+    street: true,
     houseNumber: true, (number)
     postCode: true, (number)
-    phoneNumber: true, (string)
-    email: true, (string)
-    foundingDate: true, (string)
+    phoneNumber: true,
+    email: true,
+    foundingDate: true,
     coords: true, (numbers)
-    ceo: true, (string)
-    webSite: true, (string)
+    ceo: true,
+    webSite: true,
     numberOfWorkers: true, (number)
-    description: true, (string)
-    slogan: true, (string)
-    logo: true, (string/png:base64)
+    description: true,
+    slogan: true,
+    logo: true,
   }
 ```
 
