@@ -1,6 +1,6 @@
 ## What is it?
 
-Package for generating mock data for companies.
+Package for generating mock data of the companies.
 
 ## Installation
 
