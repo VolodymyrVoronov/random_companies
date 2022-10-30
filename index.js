@@ -129,4 +129,4 @@ const getRandomCompanies = (amount = 10, settings = {}) => {
   return companies;
 };
 
-console.log(getRandomCompanies(5, {}));
+export default getRandomCompanies;
