@@ -5,7 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {},
-  "keywords": [],
+  "keywords": [
+    "data",
+    "random",
+    "mock data",
+    "mock",
+    "info",
+    "information",
+    "companies",
+    "company"
+  ],
   "author": "",
   "license": "ISC"
 }
