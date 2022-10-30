@@ -56,7 +56,7 @@ By default **getRandomCompanies()** returns **10 companies** (array) with all se
 
     id: true, return (string)
     companyName: true, return (string)
-    country: true, return (string)
+    country: true, return (strings)
     city: true, return (string)
     street: true, return (string)
     houseNumber: true, return (number)
