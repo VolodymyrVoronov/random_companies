@@ -1,6 +1,6 @@
 {
   "name": "random_companies",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Companies randomizer",
   "main": "index.js",
   "type": "module",
@@ -13,7 +13,9 @@
     "info",
     "information",
     "companies",
-    "company"
+    "company",
+    "test data",
+    "test"
   ],
   "author": "",
   "license": "ISC"
