@@ -19,38 +19,7 @@ The first argument is amunt of companies, that will be generated and given back 
 The second argument is settings for data to be generated.
 **{}** by default, it means all parameters are on (true) and will be generated and added to array.
 
-{
-   &emsp; id: true,
-   &emsp; companyName: true,
-   &emsp; country: true,
-   &emsp; city: true,
-   &emsp; street: true,
-   &emsp; houseNumber: true,
-   &emsp; postCode: true,
-   &emsp; phoneNumber: true,
-   &emsp; email: true,
-   &emsp; foundingDate: true,
-   &emsp; coords: true,
-   &emsp; ceo: true,
-   &emsp; webSite: true,
-   &emsp; numberOfWorkers: true,
-   &emsp; description: true,
-   &emsp; slogan: true,
-   &emsp; logo: true,
-  }
-
-
-If you dont need some of the parameters, just set it to false.
-
-**getRandomCompanies(10, { logo: false, phoneNumber: false })**
-*The output wont contain logo and phone number of the companies.*
-
-## Parameters
-
-The function accepts two parameters, amount (number) and settings (object);
-
-By default **getRandomCompanies()** returns **10 companies** (array) with all settings on;
-
+`{
     id: true, (string)
     companyName: true, (string)
     country: true, (string)
@@ -68,3 +37,34 @@ By default **getRandomCompanies()** returns **10 companies** (array) with all se
     description: true, (string)
     slogan: true, (string)
     logo: true, (string/png:base64)
+  }`
+
+
+If you dont need some of the parameters, just set it to false.
+
+**getRandomCompanies(10, { logo: false, phoneNumber: false })**
+*The output wont contain logo and phone number of the companies.*
+
+## Parameters
+
+The function accepts two parameters, amount (number) and settings (object).
+
+By default **getRandomCompanies()** returns **10 companies** (array) with all settings on.
+
+    id (string)
+    companyName (string)
+    country (string)
+    city (string)
+    street (string)
+    houseNumber (number)
+    postCode (number)
+    phoneNumbe (string)
+    emai (string)
+    foundingDate (string)
+    coords (numbers)
+    ceo (string)
+    webSite (string)
+    numberOfWorkers (number)
+    description (string)
+    slogan (string)
+    logo (string/png:base64)
