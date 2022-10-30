@@ -1,6 +1,6 @@
 ## What is it?
 
-Package for generating mock data for companies. 
+Package for generating mock data for companies.
 
 ## Installation
 
@@ -46,7 +46,7 @@ If you dont need some of the parameters, just set it to false.
 
 **getRandomCompanies(10, { logo: false, phoneNumber: false })**
 
-*The output wont contain logo and phone number of the companies.*
+_The output wont contain logo and phone number of the companies._
 
 ## Parameters
 
@@ -54,27 +54,25 @@ The function accepts two parameters, amount (number) and settings (object).
 
 By default **getRandomCompanies()** returns **10 companies** (array) with all settings on.
 
-    id (string)
-    companyName (string)
-    country (string)
-    city (string)
-    street (string)
-    houseNumber (number)
-    postCode (number)
-    phoneNumbe (string)
-    emai (string)
-    foundingDate (string)
-    coords (numbers)
-    ceo (string)
-    webSite (string)
-    numberOfWorkers (number)
-    description (string)
-    slogan (string)
-    logo (string/png:base64)
-
+    id: true, return (string)
+    companyName: true, return (string)
+    country: true, return (string)
+    city: true, return (string)
+    street: true, return (string)
+    houseNumber: true, return (number)
+    postCode: true, return (number)
+    phoneNumber: true, return (string)
+    email: true, return (string)
+    foundingDate: true, return (string)
+    coords: true, return (numbers)
+    ceo: true, return (string)
+    webSite: true, return (string)
+    numberOfWorkers: true, return (number)
+    description: true, return (string)
+    slogan: true, return (string)
+    logo: true, return (string/png:base64)
 
 ## Output example
-
 
     {
         id: 'n5gnd2m6wr6w12dn7yl99dqiok3w8j4o',
