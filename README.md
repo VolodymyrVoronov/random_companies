@@ -26,15 +26,15 @@ The second argument is settings for data to be generated.
     country: true,
     city: true,
     street: true,
-    houseNumber: true, (number)
-    postCode: true, (number)
+    houseNumber: true,
+    postCode: true,
     phoneNumber: true,
     email: true,
     foundingDate: true,
-    coords: true, (numbers)
+    coords: true,
     ceo: true,
     webSite: true,
-    numberOfWorkers: true, (number)
+    numberOfWorkers: true,
     description: true,
     slogan: true,
     logo: true,
