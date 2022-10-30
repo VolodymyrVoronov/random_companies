@@ -42,11 +42,11 @@ The second argument is settings for data to be generated.
 ```
 
 <br/>
-If you dont need some of the parameters, just set it to false.
+If you don't need some of the parameters, just set it to false.
 
 **getRandomCompanies(10, { logo: false, phoneNumber: false })**
 
-_The output wont contain logo and phone number of the companies._
+_The output won't contain logo and phone number of the companies._
 
 ## Parameters
 
