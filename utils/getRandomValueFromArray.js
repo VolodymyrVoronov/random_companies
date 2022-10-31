@@ -1,7 +1,7 @@
-import getRandomArbitrary from "./getRandomNumberMinMax.js";
+import getRandomNumberMinMax from "./getRandomNumberMinMax.js";
 
 const getRandomValueFromArray = (array) => {
-  const index = getRandomArbitrary(0, array.length - 1);
+  const index = getRandomNumberMinMax(0, array.length - 1);
 
   return array[index];
 };

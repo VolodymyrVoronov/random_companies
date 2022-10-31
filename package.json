@@ -1,6 +1,6 @@
 {
   "name": "random_companies",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Companies randomizer",
   "main": "index.js",
   "type": "module",
